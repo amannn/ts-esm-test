@@ -4,11 +4,10 @@
     "module": "ESNext",
     "target": "ESNext",
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": false,
     "outDir": "dist",
-    "esModuleInterop": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "allowJs": true,
     "strict": true
   }
