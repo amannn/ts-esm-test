@@ -1,14 +1,16 @@
 {
   "include": ["src"],
   "compilerOptions": {
-    "module": "ESNext",
+    "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": true,
+    "module": "Node16",
+    "moduleResolution": "NodeNext",
     "target": "ESNext",
     "declaration": true,
     "declarationMap": true,
     "outDir": "dist",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
     "allowJs": true,
     "strict": true
   }
